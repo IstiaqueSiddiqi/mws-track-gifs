@@ -2,10 +2,10 @@
   "name": "mws-track-gifs",
   "version": "1.0.0",
   "description": "Google India Scholar Collaborative Project- Phase 2",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "serve -s prod",
-    "heroku-postbuild": "npm run prod",
+    "start": "index.html",
+    "heroku-postbuild": "npm run index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
