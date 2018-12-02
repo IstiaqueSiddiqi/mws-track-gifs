@@ -137,7 +137,7 @@ const createGifCard = (gif) => {
         if (navigator.share) {
             // Web Share API is supported
             navigator.share({
-                title: 'https://gify-pwa.herokuapp.com',
+                text: 'https://gify-pwa.herokuapp.com',
                 url: gif.img,
             }).then(() => console.log('Successful share'))
             .catch((error) => console.log('Error sharing', error));
